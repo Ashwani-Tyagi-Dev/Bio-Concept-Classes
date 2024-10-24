@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Bio-Concept-Classes/static/css/main.7cf21483.css",
+    "main.js": "/Bio-Concept-Classes/static/js/main.01adb6fb.js",
+    "static/js/453.ed3810f9.chunk.js": "/Bio-Concept-Classes/static/js/453.ed3810f9.chunk.js",
+    "static/media/coming-soon.jpg": "/Bio-Concept-Classes/static/media/coming-soon.d144164aa7d22df4719c.jpg",
+    "static/media/contact-us2.jpg": "/Bio-Concept-Classes/static/media/contact-us2.63ab078d9ef699176ffe.jpg",
+    "static/media/contact-us1.jpg": "/Bio-Concept-Classes/static/media/contact-us1.24de58fb4e31ac64e865.jpg",
+    "static/media/study.jpeg": "/Bio-Concept-Classes/static/media/study.539d7596f8a0745e9ac4.jpeg",
+    "static/media/headerImg.png": "/Bio-Concept-Classes/static/media/headerImg.c182642a4e052ae79847.png",
+    "static/media/lW.png": "/Bio-Concept-Classes/static/media/lW.e44f66e6240acb65bc36.png",
+    "index.html": "/Bio-Concept-Classes/index.html",
+    "main.7cf21483.css.map": "/Bio-Concept-Classes/static/css/main.7cf21483.css.map",
+    "main.01adb6fb.js.map": "/Bio-Concept-Classes/static/js/main.01adb6fb.js.map",
+    "453.ed3810f9.chunk.js.map": "/Bio-Concept-Classes/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cf21483.css",
+    "static/js/main.01adb6fb.js"
+  ]
+}
