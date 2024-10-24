@@ -28,7 +28,7 @@ export const Navbar = () => {
             <li className="nav-item">
               <Link
                 className={`nav-link ${
-                  location.pathname === "/" ? "active" : ""
+                  location.pathname == "/" ? "active" : ""
                 } ml-5`}
                 aria-current="page"
                 to="/"
@@ -39,7 +39,7 @@ export const Navbar = () => {
             <li className="nav-item">
               <Link
                 className={`nav-link ${
-                  location.pathname === "/classes" ? "active" : ""
+                  location.pathname == "/classes" ? "active" : ""
                 } ml-5`}
                 to="/classes"
               >
@@ -49,7 +49,7 @@ export const Navbar = () => {
             <li className="nav-item">
               <Link
                 className={`nav-link ${
-                  location.pathname === "/contact" ? "active" : ""
+                  location.pathname == "/contact" ? "active" : ""
                 } ml-5`}
                 to="/contact"
               >
@@ -59,7 +59,7 @@ export const Navbar = () => {
             <li className="nav-item">
               <Link
                 className={`nav-link ${
-                  location.pathname === "/about" ? "active" : ""
+                  location.pathname == "/about" ? "active" : ""
                 } ml-5`}
                 to="/about"
               >
