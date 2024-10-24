@@ -211,6 +211,7 @@
 /* Contact-Us */
 .contact{
   height: 93.2vh;
+  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -218,9 +219,9 @@
 }
 
 .contactContainer{
-  background-position: center center;
-background-image:url(./images/contact-us1.jpg) ;
 
+background-image:url(./images/contact-us1.jpg) ;
+background-position: center center;
 background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -788,6 +789,11 @@ width: 80%;
 }
 .contactContainer{
   background-image: url(./images/contact-us2.jpg);
+  background-position: center center;
+background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 .rightContact h1 {
   margin-right: 0px;
