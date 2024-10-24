@@ -3,7 +3,8 @@ import logo from "../images/lW.png";
 import { Link, useLocation } from "react-router-dom";
 
 export const Navbar = () => {
-  const location = useLocation();
+  //todo
+  // const location = useLocation();
 
   return (
     <nav
@@ -26,43 +27,22 @@ export const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav fs-5">
             <li className="nav-item">
-              <Link
-                className={`nav-link ${
-                  location.pathname == "/" ? "active" : ""
-                } ml-5`}
-                aria-current="page"
-                to="/"
-              >
+              <Link className="nav-link active ml-5" aria-current="page" to="/">
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                className={`nav-link ${
-                  location.pathname == "/classes" ? "active" : ""
-                } ml-5`}
-                to="/classes"
-              >
+              <Link className="nav-link active ml-5" to="/classes">
                 Classes
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                className={`nav-link ${
-                  location.pathname == "/contact" ? "active" : ""
-                } ml-5`}
-                to="/contact"
-              >
+              <Link className="nav-link active ml-5" to="/contact">
                 Contact
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                className={`nav-link ${
-                  location.pathname == "/about" ? "active" : ""
-                } ml-5`}
-                to="/about"
-              >
+              <Link className="nav-link active ml-5" to="/about">
                 About
               </Link>
             </li>
