@@ -1,14 +1,12 @@
 
-import './App.css'
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import './App.css';
+import React, { useEffect, useState } from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import Home from './components/Home';
 import Classes from './components/Classes';
 import About from './components/About';
 import Loader from './components/Loader';
-
-import { useEffect, useState } from "react";
 import Contact from './components/Contact';
 
 const App = () => {
@@ -25,14 +23,16 @@ const App = () => {
   if (loading) {
     return <Loader />; // Show loader while loading
   }
+
   return (
     <Router>
-     <Navbar/>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/classes" element={<Classes />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+        <Route path="*" element={<Navigate to="/" replace />} /> {/* Redirect all unknown paths to home */}
       </Routes>
     </Router>
   );
